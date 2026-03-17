@@ -28,8 +28,24 @@ To maintain a dictionary of students with their marks in five subjects, calculat
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+n = int(input("Enter number of scores: "))
+scores = list(map(int, input("Enter scores: ").split()))
+
+scores = list(set(scores))
+scores.sort(reverse=True)
+
+print("Runner-up score:", scores[1])v
 
 ## OUTPUT
 
+Enter number of scores: 5
+Enter scores: 2 3 6 6 5
+Runner-up score: 5
+
 ## RESULT
+
+The programs were implemented successfully and the outputs were verified.
