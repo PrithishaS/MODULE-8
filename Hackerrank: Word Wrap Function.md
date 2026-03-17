@@ -26,9 +26,25 @@ To write a Python function that takes a long string and a specified width, and r
 
 
 ## 🧪 Program
-Add Code Here
+# Reg.No: 212222210020
+# Name: Prithisha S
 
-## Sample Output
+import textwrap
+
+s = input("Enter string: ")
+width = int(input("Enter width: "))
+
+print(textwrap.fill(s, width))
+
+## Output
+
+Enter string: HelloWorldPython
+Enter width: 5
+Hello
+World
+Pytho
+n
 
 ## Result
+The programs were implemented successfully and the outputs were verified.
 
