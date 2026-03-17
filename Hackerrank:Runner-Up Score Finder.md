@@ -20,8 +20,32 @@ To write a Python program that takes a list of scores from participants and find
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+students = {}
+
+n = int(input("Enter number of students: "))
+
+for _ in range(n):
+    name = input("Enter name: ")
+    marks = int(input("Enter marks: "))
+    students[name] = marks
+
+topper = max(students, key=students.get)
+
+print("Topper:", topper)
 
 ## OUTPUT
 
+Enter number of students: 3
+Enter name: A
+Enter marks: 80
+Enter name: B
+Enter marks: 90
+Enter name: C
+Enter marks: 85
+Topper: B
+
 ## RESULT
+The programs were implemented successfully and the outputs were verified.
