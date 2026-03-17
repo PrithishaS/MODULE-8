@@ -27,10 +27,37 @@ To write a Python program to:
 
 ## 💻  Program
 
-Add Code Here
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+students = []
+
+for _ in range(int(input("Enter number of students: "))):
+    name = input("Enter name: ")
+    score = float(input("Enter score: "))
+    students.append([name, score])
+
+scores = sorted(set([s[1] for s in students]))
+second_lowest = scores[1]
+
+names = sorted([s[0] for s in students if s[1] == second_lowest])
+
+for name in names:
+    print(name)
 
 ## Output
 
+Enter number of students: 3
+Enter name: A
+Enter score: 50
+Enter name: B
+Enter score: 40
+Enter name: C
+Enter score: 50
+A
+C
+
 ## Result
 
+The programs were implemented successfully and the outputs were verified.
 
